@@ -3,12 +3,14 @@ server:
 spring:
   application:
     name: ly-registry
+
   rabbitmq:
     host: 192.168.56.167
     port: 5672
     username: /leyou
     password: leyou
     virtual-host: /leyou
+
 eureka:
   client:
     serviceUrl:
