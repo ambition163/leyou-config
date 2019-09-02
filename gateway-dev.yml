@@ -20,7 +20,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:${server.port}/eureka
+      defaultZone: http://127.0.0.1:10086/eureka
     registry-fetch-interval-seconds: 5
   instance:
     instance-id: ${spring.application.name}:${server.port}
