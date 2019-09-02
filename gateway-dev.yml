@@ -11,6 +11,12 @@ spring:
     password: leyou
     virtual-host: /leyou
 
+  security:
+    user:
+      name: admin
+      password: 123456
+    basic:
+      enabled: false
 eureka:
   client:
     serviceUrl:
